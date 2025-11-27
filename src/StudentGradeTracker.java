@@ -153,3 +153,4 @@ public class StudentGradeTracker {
         double min() { return grades.stream().mapToDouble(Double::doubleValue).min().orElse(0); }
     }
 }
+
